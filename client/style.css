@@ -1,74 +1,82 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
+.appName {
+  margin: 40px auto;
+  color: #f1f1f1;
+  display: block;
+  text-align: center;
+}
+
 body {
-    background-color: black;
+  background-color: black;
 }
-.container{
-    background-color: rgb(29, 25, 25);
-    max-width: 50%;
-    margin: auto;
-    margin-top: 10vh;
-    margin-bottom: 5px;
-    height: 60vh;
-    max-height: 60vh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    overflow-y: auto;
+.container {
+  background-color: rgb(29, 25, 25);
+  max-width: 50%;
+  margin: auto;
+  margin-top: 8vh;
+  margin-bottom: 5px;
+  height: 60vh;
+  max-height: 60vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow-y: auto;
 }
 .message {
-    width: 40%;
-    background-color: rgb(61, 59, 59);
-    border-radius: 10px;
+  width: 40%;
+  background-color: rgb(61, 59, 59);
+  border-radius: 10px;
 }
 .left {
-    word-wrap: break-word;
-    padding: 5px;
-    margin: 10px;
-    font-weight: lighter;
-    font-size: 20px;
-    font-family: sans-serif;
-    color: #f1f1f1;
-    float: left;
-    clear: both;
+  word-wrap: break-word;
+  padding: 5px;
+  margin: 10px;
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #f1f1f1;
+  float: left;
+  clear: both;
 }
 .right {
-    word-wrap: break-word;
-    padding: 5px;
-    margin: 10px;
-    font-weight: 100;
-    font-size: 20px;
-    font-family: sans-serif;
-    color: #f1f1f1;
-    float: right;
-    clear: both;
+  word-wrap: break-word;
+  padding: 5px;
+  margin: 10px;
+  font-weight: 100;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #f1f1f1;
+  float: right;
+  clear: both;
 }
 .send {
-    display: block;
-    margin: auto;
-    text-align: center;       
-    max-width: 52%;
-    width: 100%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 52%;
+  width: 100%;
 }
 .msgInput {
-    margin: 0;
-    width: 80%;
-    height: 30px;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    font-size: larger;
-    padding: 0 10px;
+  margin: 0;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: larger;
+  padding: 0 10px;
 }
-.submit{
-    width: 16%;
-    height: 30px;
-    font-weight: 600;
-    font-size: 16px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    background-color: aquamarine;
-    cursor: pointer;
+.submit {
+  width: 16%;
+  height: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: aquamarine;
+  cursor: pointer;
 }

@@ -1,18 +1,20 @@
 {
   "name": "anonymous-messenger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Anonymously send msg to anyone.",
   "main": "server.js",
   "dependencies": {
-    "nodemon": "^2.0.6",
+    "cors": "^2.8.5",
     "socket.io": "^3.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pratap Tyagi",
   "license": "ISC"
 }
